@@ -1,0 +1,22 @@
+[11.479s] Invoking command in '/home/mobilehri/mobilehri_ws/src/my_package': PYTHONPATH=/home/mobilehri/mobilehri_ws/build/my_package/prefix_override:/home/mobilehri/mobilehri_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/mobilehri/mobilehri_ws/build/my_package/build install --record /home/mobilehri/mobilehri_ws/build/my_package/install.log --single-version-externally-managed
+[16.301s] running egg_info
+[16.307s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[16.307s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[16.308s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[16.309s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[16.317s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[16.318s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[16.318s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[16.319s] running build
+[16.319s] running build_py
+[16.320s] running install
+[16.321s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[16.322s]   warnings.warn(
+[16.323s] running install_lib
+[16.325s] running install_data
+[16.328s] running install_egg_info
+[16.334s] removing '/home/mobilehri/mobilehri_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[16.353s] Copying ../../build/my_package/my_package.egg-info to /home/mobilehri/mobilehri_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[16.354s] running install_scripts
+[16.461s] writing list of installed files to '/home/mobilehri/mobilehri_ws/build/my_package/install.log'
+[16.639s] Invoked command in '/home/mobilehri/mobilehri_ws/src/my_package' returned '0': PYTHONPATH=/home/mobilehri/mobilehri_ws/build/my_package/prefix_override:/home/mobilehri/mobilehri_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/mobilehri/mobilehri_ws/build/my_package/build install --record /home/mobilehri/mobilehri_ws/build/my_package/install.log --single-version-externally-managed

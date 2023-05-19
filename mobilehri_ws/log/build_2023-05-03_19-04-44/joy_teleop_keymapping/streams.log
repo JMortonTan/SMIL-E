@@ -1,0 +1,23 @@
+[14.993s] Invoking command in '/home/mobilehri/mobilehri_ws/src/mobilehri2023/joy_teleop_keymapping': PYTHONPATH=/home/mobilehri/mobilehri_ws/build/joy_teleop_keymapping/prefix_override:/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/joy_teleop_keymapping build --build-base /home/mobilehri/mobilehri_ws/build/joy_teleop_keymapping/build install --record /home/mobilehri/mobilehri_ws/build/joy_teleop_keymapping/install.log --single-version-externally-managed
+[19.636s] running egg_info
+[19.641s] writing ../../../build/joy_teleop_keymapping/joy_teleop_keymapping.egg-info/PKG-INFO
+[19.690s] writing dependency_links to ../../../build/joy_teleop_keymapping/joy_teleop_keymapping.egg-info/dependency_links.txt
+[19.714s] writing entry points to ../../../build/joy_teleop_keymapping/joy_teleop_keymapping.egg-info/entry_points.txt
+[19.719s] writing requirements to ../../../build/joy_teleop_keymapping/joy_teleop_keymapping.egg-info/requires.txt
+[19.721s] writing top-level names to ../../../build/joy_teleop_keymapping/joy_teleop_keymapping.egg-info/top_level.txt
+[19.745s] reading manifest file '../../../build/joy_teleop_keymapping/joy_teleop_keymapping.egg-info/SOURCES.txt'
+[19.766s] writing manifest file '../../../build/joy_teleop_keymapping/joy_teleop_keymapping.egg-info/SOURCES.txt'
+[19.768s] running build
+[19.769s] running build_py
+[19.810s] running install
+[19.811s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[19.812s]   warnings.warn(
+[19.815s] running install_lib
+[19.839s] running install_data
+[19.888s] running install_egg_info
+[19.914s] removing '/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/lib/python3.10/site-packages/joy_teleop_keymapping-0.0.0-py3.10.egg-info' (and everything under it)
+[19.925s] Copying ../../../build/joy_teleop_keymapping/joy_teleop_keymapping.egg-info to /home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/lib/python3.10/site-packages/joy_teleop_keymapping-0.0.0-py3.10.egg-info
+[19.970s] running install_scripts
+[20.210s] Installing keymapping_node script to /home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/lib/joy_teleop_keymapping
+[20.223s] writing list of installed files to '/home/mobilehri/mobilehri_ws/build/joy_teleop_keymapping/install.log'
+[20.659s] Invoked command in '/home/mobilehri/mobilehri_ws/src/mobilehri2023/joy_teleop_keymapping' returned '0': PYTHONPATH=/home/mobilehri/mobilehri_ws/build/joy_teleop_keymapping/prefix_override:/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/joy_teleop_keymapping build --build-base /home/mobilehri/mobilehri_ws/build/joy_teleop_keymapping/build install --record /home/mobilehri/mobilehri_ws/build/joy_teleop_keymapping/install.log --single-version-externally-managed

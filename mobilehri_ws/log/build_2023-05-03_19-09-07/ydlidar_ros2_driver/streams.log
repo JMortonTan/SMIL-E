@@ -1,0 +1,34 @@
+[3.439s] Invoking command in '/home/mobilehri/mobilehri_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mobilehri/mobilehri_ws/src/mobilehri2023/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/mobilehri/mobilehri_ws/install/ydlidar_ros2_driver
+[3.441s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.553s] -- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+[4.823s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.836s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.866s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.919s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.002s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.310s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.316s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.893s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.823s] -- Found sensor_msgs: 4.2.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[8.533s] -- Found visualization_msgs: 4.2.2 (/opt/ros/humble/share/visualization_msgs/cmake)
+[9.735s] -- Found std_srvs: 4.2.2 (/opt/ros/humble/share/std_srvs/cmake)
+[9.919s] [31mCMake Error at CMakeLists.txt:25 (find_package):
+[9.919s]   By not providing "Findydlidar_sdk.cmake" in CMAKE_MODULE_PATH this project
+[9.920s]   has asked CMake to find a package configuration file provided by
+[9.921s]   "ydlidar_sdk", but CMake did not find one.
+[9.921s] 
+[9.922s]   Could not find a package configuration file provided by "ydlidar_sdk" with
+[9.922s]   any of the following names:
+[9.923s] 
+[9.923s]     ydlidar_sdkConfig.cmake
+[9.924s]     ydlidar_sdk-config.cmake
+[9.925s] 
+[9.925s]   Add the installation prefix of "ydlidar_sdk" to CMAKE_PREFIX_PATH or set
+[9.926s]   "ydlidar_sdk_DIR" to a directory containing one of the above files.  If
+[9.926s]   "ydlidar_sdk" provides a separate development package or SDK, be sure it
+[9.927s]   has been installed.
+[9.927s] 
+[9.943s] [0m
+[10.001s] -- Configuring incomplete, errors occurred!
+[10.003s] See also "/home/mobilehri/mobilehri_ws/build/ydlidar_ros2_driver/CMakeFiles/CMakeOutput.log".
+[10.004s] Invoked command in '/home/mobilehri/mobilehri_ws/build/ydlidar_ros2_driver' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mobilehri/mobilehri_ws/src/mobilehri2023/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/mobilehri/mobilehri_ws/install/ydlidar_ros2_driver

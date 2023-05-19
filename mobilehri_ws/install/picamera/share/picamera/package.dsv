@@ -1,0 +1,6 @@
+source;share/picamera/hook/pythonpath.ps1
+source;share/picamera/hook/pythonpath.dsv
+source;share/picamera/hook/pythonpath.sh
+source;share/picamera/hook/ament_prefix_path.ps1
+source;share/picamera/hook/ament_prefix_path.dsv
+source;share/picamera/hook/ament_prefix_path.sh

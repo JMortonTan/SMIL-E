@@ -1,0 +1,23 @@
+[14.267s] Invoking command in '/home/mobilehri/mobilehri_ws/src/mobilehri2023/picamera': PYTHONPATH=/home/mobilehri/mobilehri_ws/build/picamera/prefix_override:/home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/picamera build --build-base /home/mobilehri/mobilehri_ws/build/picamera/build install --record /home/mobilehri/mobilehri_ws/build/picamera/install.log --single-version-externally-managed
+[17.655s] running egg_info
+[17.661s] writing ../../../build/picamera/picamera.egg-info/PKG-INFO
+[17.664s] writing dependency_links to ../../../build/picamera/picamera.egg-info/dependency_links.txt
+[17.666s] writing entry points to ../../../build/picamera/picamera.egg-info/entry_points.txt
+[17.669s] writing requirements to ../../../build/picamera/picamera.egg-info/requires.txt
+[17.672s] writing top-level names to ../../../build/picamera/picamera.egg-info/top_level.txt
+[17.715s] reading manifest file '../../../build/picamera/picamera.egg-info/SOURCES.txt'
+[17.747s] writing manifest file '../../../build/picamera/picamera.egg-info/SOURCES.txt'
+[17.749s] running build
+[17.749s] running build_py
+[17.750s] running install
+[17.759s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[17.764s]   warnings.warn(
+[17.765s] running install_lib
+[17.780s] running install_data
+[17.789s] running install_egg_info
+[17.815s] removing '/home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages/picamera-0.0.0-py3.10.egg-info' (and everything under it)
+[17.824s] Copying ../../../build/picamera/picamera.egg-info to /home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages/picamera-0.0.0-py3.10.egg-info
+[17.848s] running install_scripts
+[18.031s] Installing picamera_node script to /home/mobilehri/mobilehri_ws/install/picamera/lib/picamera
+[18.046s] writing list of installed files to '/home/mobilehri/mobilehri_ws/build/picamera/install.log'
+[18.287s] Invoked command in '/home/mobilehri/mobilehri_ws/src/mobilehri2023/picamera' returned '0': PYTHONPATH=/home/mobilehri/mobilehri_ws/build/picamera/prefix_override:/home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/picamera build --build-base /home/mobilehri/mobilehri_ws/build/picamera/build install --record /home/mobilehri/mobilehri_ws/build/picamera/install.log --single-version-externally-managed

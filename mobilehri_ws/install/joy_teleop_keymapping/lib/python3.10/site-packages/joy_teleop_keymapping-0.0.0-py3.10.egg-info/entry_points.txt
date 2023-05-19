@@ -1,0 +1,3 @@
+[console_scripts]
+keymapping_node = joy_teleop_keymapping.keymapping_node:main
+

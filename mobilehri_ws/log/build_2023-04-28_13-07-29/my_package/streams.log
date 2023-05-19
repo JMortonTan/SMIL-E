@@ -1,0 +1,35 @@
+[12.382s] Invoking command in '/home/mobilehri/mobilehri_ws/src/my_package': PYTHONPATH=/home/mobilehri/mobilehri_ws/build/my_package/prefix_override:/home/mobilehri/mobilehri_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/mobilehri/mobilehri_ws/build/my_package/build install --record /home/mobilehri/mobilehri_ws/build/my_package/install.log --single-version-externally-managed
+[15.459s] running egg_info
+[15.462s] creating ../../build/my_package/my_package.egg-info
+[15.466s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[15.468s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[15.471s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[15.473s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[15.476s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[15.479s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[15.490s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[15.496s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[15.501s] running build
+[15.502s] running build_py
+[15.506s] creating /home/mobilehri/mobilehri_ws/build/my_package/build
+[15.506s] creating /home/mobilehri/mobilehri_ws/build/my_package/build/lib
+[15.507s] creating /home/mobilehri/mobilehri_ws/build/my_package/build/lib/my_package
+[15.507s] copying my_package/__init__.py -> /home/mobilehri/mobilehri_ws/build/my_package/build/lib/my_package
+[15.508s] running install
+[15.508s] running install_lib
+[15.510s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[15.510s]   warnings.warn(
+[15.518s] creating /home/mobilehri/mobilehri_ws/install/my_package/lib/python3.10/site-packages/my_package
+[15.520s] copying /home/mobilehri/mobilehri_ws/build/my_package/build/lib/my_package/__init__.py -> /home/mobilehri/mobilehri_ws/install/my_package/lib/python3.10/site-packages/my_package
+[15.521s] byte-compiling /home/mobilehri/mobilehri_ws/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc
+[15.539s] running install_data
+[15.542s] creating /home/mobilehri/mobilehri_ws/install/my_package/share/ament_index
+[15.553s] creating /home/mobilehri/mobilehri_ws/install/my_package/share/ament_index/resource_index
+[15.554s] creating /home/mobilehri/mobilehri_ws/install/my_package/share/ament_index/resource_index/packages
+[15.555s] copying resource/my_package -> /home/mobilehri/mobilehri_ws/install/my_package/share/ament_index/resource_index/packages
+[15.556s] copying package.xml -> /home/mobilehri/mobilehri_ws/install/my_package/share/my_package
+[15.557s] running install_egg_info
+[15.605s] Copying ../../build/my_package/my_package.egg-info to /home/mobilehri/mobilehri_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[15.633s] running install_scripts
+[16.013s] writing list of installed files to '/home/mobilehri/mobilehri_ws/build/my_package/install.log'
+[16.496s] Invoked command in '/home/mobilehri/mobilehri_ws/src/my_package' returned '0': PYTHONPATH=/home/mobilehri/mobilehri_ws/build/my_package/prefix_override:/home/mobilehri/mobilehri_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/mobilehri/mobilehri_ws/build/my_package/build install --record /home/mobilehri/mobilehri_ws/build/my_package/install.log --single-version-externally-managed

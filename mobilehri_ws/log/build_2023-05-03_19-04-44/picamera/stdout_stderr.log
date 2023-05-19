@@ -1,0 +1,21 @@
+running egg_info
+writing ../../../build/picamera/picamera.egg-info/PKG-INFO
+writing dependency_links to ../../../build/picamera/picamera.egg-info/dependency_links.txt
+writing entry points to ../../../build/picamera/picamera.egg-info/entry_points.txt
+writing requirements to ../../../build/picamera/picamera.egg-info/requires.txt
+writing top-level names to ../../../build/picamera/picamera.egg-info/top_level.txt
+reading manifest file '../../../build/picamera/picamera.egg-info/SOURCES.txt'
+writing manifest file '../../../build/picamera/picamera.egg-info/SOURCES.txt'
+running build
+running build_py
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages/picamera-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/picamera/picamera.egg-info to /home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages/picamera-0.0.0-py3.10.egg-info
+running install_scripts
+Installing picamera_node script to /home/mobilehri/mobilehri_ws/install/picamera/lib/picamera
+writing list of installed files to '/home/mobilehri/mobilehri_ws/build/picamera/install.log'

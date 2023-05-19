@@ -1,0 +1,26 @@
+[14.360s] Invoking command in '/home/mobilehri/mobilehri_ws/src/mobilehri2023/mobile_robot_control': PYTHONPATH=/home/mobilehri/mobilehri_ws/build/mobile_robot_control/prefix_override:/home/mobilehri/mobilehri_ws/install/mobile_robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mobile_robot_control build --build-base /home/mobilehri/mobilehri_ws/build/mobile_robot_control/build install --record /home/mobilehri/mobilehri_ws/build/mobile_robot_control/install.log --single-version-externally-managed
+[16.909s] running egg_info
+[16.917s] writing ../../../build/mobile_robot_control/mobile_robot_control.egg-info/PKG-INFO
+[16.918s] writing dependency_links to ../../../build/mobile_robot_control/mobile_robot_control.egg-info/dependency_links.txt
+[16.919s] writing entry points to ../../../build/mobile_robot_control/mobile_robot_control.egg-info/entry_points.txt
+[16.919s] writing requirements to ../../../build/mobile_robot_control/mobile_robot_control.egg-info/requires.txt
+[16.920s] writing top-level names to ../../../build/mobile_robot_control/mobile_robot_control.egg-info/top_level.txt
+[16.942s] reading manifest file '../../../build/mobile_robot_control/mobile_robot_control.egg-info/SOURCES.txt'
+[16.943s] writing manifest file '../../../build/mobile_robot_control/mobile_robot_control.egg-info/SOURCES.txt'
+[16.944s] running build
+[16.952s] running build_py
+[16.953s] copying mobile_robot_control/odrive_command.py -> /home/mobilehri/mobilehri_ws/build/mobile_robot_control/build/lib/mobile_robot_control
+[16.955s] running install
+[16.955s] running install_lib
+[16.956s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[16.957s]   warnings.warn(
+[16.962s] copying /home/mobilehri/mobilehri_ws/build/mobile_robot_control/build/lib/mobile_robot_control/odrive_command.py -> /home/mobilehri/mobilehri_ws/install/mobile_robot_control/lib/python3.10/site-packages/mobile_robot_control
+[16.963s] byte-compiling /home/mobilehri/mobilehri_ws/install/mobile_robot_control/lib/python3.10/site-packages/mobile_robot_control/odrive_command.py to odrive_command.cpython-310.pyc
+[16.983s] running install_data
+[16.984s] running install_egg_info
+[16.985s] removing '/home/mobilehri/mobilehri_ws/install/mobile_robot_control/lib/python3.10/site-packages/mobile_robot_control-0.0.0-py3.10.egg-info' (and everything under it)
+[17.002s] Copying ../../../build/mobile_robot_control/mobile_robot_control.egg-info to /home/mobilehri/mobilehri_ws/install/mobile_robot_control/lib/python3.10/site-packages/mobile_robot_control-0.0.0-py3.10.egg-info
+[17.003s] running install_scripts
+[17.259s] Installing mobile_robot_control_node script to /home/mobilehri/mobilehri_ws/install/mobile_robot_control/lib/mobile_robot_control
+[17.260s] writing list of installed files to '/home/mobilehri/mobilehri_ws/build/mobile_robot_control/install.log'
+[17.728s] Invoked command in '/home/mobilehri/mobilehri_ws/src/mobilehri2023/mobile_robot_control' returned '0': PYTHONPATH=/home/mobilehri/mobilehri_ws/build/mobile_robot_control/prefix_override:/home/mobilehri/mobilehri_ws/install/mobile_robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mobile_robot_control build --build-base /home/mobilehri/mobilehri_ws/build/mobile_robot_control/build install --record /home/mobilehri/mobilehri_ws/build/mobile_robot_control/install.log --single-version-externally-managed

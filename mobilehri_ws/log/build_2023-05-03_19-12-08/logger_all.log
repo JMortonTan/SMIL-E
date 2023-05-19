@@ -1,0 +1,330 @@
+[3.299s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.299s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa85396c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa8f4fee0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa8f4fee0>>)
+[3.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.541s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mobilehri/mobilehri_ws'
+[3.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.543s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.543s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.543s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.625s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.627s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.628s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.629s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.630s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.630s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.631s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.632s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.632s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.633s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.633s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.634s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.634s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.637s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.637s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.637s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.638s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.638s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.638s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.639s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.659s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.659s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023) by extensions ['ignore', 'ignore_ament_install']
+[3.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023) by extension 'ignore'
+[3.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023) by extension 'ignore_ament_install'
+[3.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023) by extensions ['colcon_pkg']
+[3.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023) by extension 'colcon_pkg'
+[3.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023) by extensions ['colcon_meta']
+[3.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023) by extension 'colcon_meta'
+[3.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023) by extensions ['ros']
+[3.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023) by extension 'ros'
+[3.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023) by extensions ['cmake', 'python']
+[3.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023) by extension 'cmake'
+[3.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023) by extension 'python'
+[3.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023) by extensions ['python_setup_py']
+[3.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023) by extension 'python_setup_py'
+[3.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/joy_teleop_keymapping) by extensions ['ignore', 'ignore_ament_install']
+[3.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/joy_teleop_keymapping) by extension 'ignore'
+[3.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/joy_teleop_keymapping) by extension 'ignore_ament_install'
+[3.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/joy_teleop_keymapping) by extensions ['colcon_pkg']
+[3.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/joy_teleop_keymapping) by extension 'colcon_pkg'
+[3.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/joy_teleop_keymapping) by extensions ['colcon_meta']
+[3.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/joy_teleop_keymapping) by extension 'colcon_meta'
+[3.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/joy_teleop_keymapping) by extensions ['ros']
+[3.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/joy_teleop_keymapping) by extension 'ros'
+[3.689s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mobilehri2023/joy_teleop_keymapping' with type 'ros.ament_python' and name 'joy_teleop_keymapping'
+[3.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/mobile_robot_control) by extensions ['ignore', 'ignore_ament_install']
+[3.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/mobile_robot_control) by extension 'ignore'
+[3.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/mobile_robot_control) by extension 'ignore_ament_install'
+[3.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/mobile_robot_control) by extensions ['colcon_pkg']
+[3.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/mobile_robot_control) by extension 'colcon_pkg'
+[3.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/mobile_robot_control) by extensions ['colcon_meta']
+[3.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/mobile_robot_control) by extension 'colcon_meta'
+[3.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/mobile_robot_control) by extensions ['ros']
+[3.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/mobile_robot_control) by extension 'ros'
+[3.758s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mobilehri2023/mobile_robot_control' with type 'ros.ament_python' and name 'mobile_robot_control'
+[3.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/picamera) by extensions ['ignore', 'ignore_ament_install']
+[3.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/picamera) by extension 'ignore'
+[3.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/picamera) by extension 'ignore_ament_install'
+[3.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/picamera) by extensions ['colcon_pkg']
+[3.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/picamera) by extension 'colcon_pkg'
+[3.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/picamera) by extensions ['colcon_meta']
+[3.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/picamera) by extension 'colcon_meta'
+[3.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/picamera) by extensions ['ros']
+[3.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/picamera) by extension 'ros'
+[3.766s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mobilehri2023/picamera' with type 'ros.ament_python' and name 'picamera'
+[3.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[3.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/ydlidar_ros2_driver) by extension 'ignore'
+[3.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[3.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[3.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[3.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[3.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/ydlidar_ros2_driver) by extension 'colcon_meta'
+[3.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/ydlidar_ros2_driver) by extensions ['ros']
+[3.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobilehri2023/ydlidar_ros2_driver) by extension 'ros'
+[3.779s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mobilehri2023/ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[3.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ignore', 'ignore_ament_install']
+[3.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore'
+[3.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore_ament_install'
+[3.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_pkg']
+[3.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_pkg'
+[3.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_meta']
+[3.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_meta'
+[3.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ros']
+[3.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ros'
+[3.787s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_package' with type 'ros.ament_python' and name 'my_package'
+[3.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.788s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.788s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.955s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.955s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.985s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 315 installed packages in /opt/ros/humble
+[3.995s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.580s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop_keymapping' build argument 'cmake_args' from command line to 'None'
+[4.581s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop_keymapping' build argument 'cmake_target' from command line to 'None'
+[4.581s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop_keymapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.581s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop_keymapping' build argument 'cmake_clean_cache' from command line to 'False'
+[4.581s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop_keymapping' build argument 'cmake_clean_first' from command line to 'False'
+[4.582s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop_keymapping' build argument 'cmake_force_configure' from command line to 'False'
+[4.582s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop_keymapping' build argument 'ament_cmake_args' from command line to 'None'
+[4.582s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop_keymapping' build argument 'catkin_cmake_args' from command line to 'None'
+[4.582s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop_keymapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.583s] DEBUG:colcon.colcon_core.verb:Building package 'joy_teleop_keymapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mobilehri/mobilehri_ws/build/joy_teleop_keymapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping', 'merge_install': False, 'path': '/home/mobilehri/mobilehri_ws/src/mobilehri2023/joy_teleop_keymapping', 'symlink_install': False, 'test_result_base': None}
+[4.590s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot_control' build argument 'cmake_args' from command line to 'None'
+[4.590s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot_control' build argument 'cmake_target' from command line to 'None'
+[4.590s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.591s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[4.591s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot_control' build argument 'cmake_clean_first' from command line to 'False'
+[4.591s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot_control' build argument 'cmake_force_configure' from command line to 'False'
+[4.591s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot_control' build argument 'ament_cmake_args' from command line to 'None'
+[4.591s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[4.591s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.592s] DEBUG:colcon.colcon_core.verb:Building package 'mobile_robot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mobilehri/mobilehri_ws/build/mobile_robot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mobilehri/mobilehri_ws/install/mobile_robot_control', 'merge_install': False, 'path': '/home/mobilehri/mobilehri_ws/src/mobilehri2023/mobile_robot_control', 'symlink_install': False, 'test_result_base': None}
+[4.600s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_args' from command line to 'None'
+[4.600s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target' from command line to 'None'
+[4.600s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.600s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_cache' from command line to 'False'
+[4.601s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_first' from command line to 'False'
+[4.601s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_force_configure' from command line to 'False'
+[4.601s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'ament_cmake_args' from command line to 'None'
+[4.601s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_cmake_args' from command line to 'None'
+[4.601s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.602s] DEBUG:colcon.colcon_core.verb:Building package 'my_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mobilehri/mobilehri_ws/build/my_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mobilehri/mobilehri_ws/install/my_package', 'merge_install': False, 'path': '/home/mobilehri/mobilehri_ws/src/my_package', 'symlink_install': False, 'test_result_base': None}
+[4.608s] Level 5:colcon.colcon_core.verb:set package 'picamera' build argument 'cmake_args' from command line to 'None'
+[4.608s] Level 5:colcon.colcon_core.verb:set package 'picamera' build argument 'cmake_target' from command line to 'None'
+[4.608s] Level 5:colcon.colcon_core.verb:set package 'picamera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.609s] Level 5:colcon.colcon_core.verb:set package 'picamera' build argument 'cmake_clean_cache' from command line to 'False'
+[4.609s] Level 5:colcon.colcon_core.verb:set package 'picamera' build argument 'cmake_clean_first' from command line to 'False'
+[4.609s] Level 5:colcon.colcon_core.verb:set package 'picamera' build argument 'cmake_force_configure' from command line to 'False'
+[4.610s] Level 5:colcon.colcon_core.verb:set package 'picamera' build argument 'ament_cmake_args' from command line to 'None'
+[4.610s] Level 5:colcon.colcon_core.verb:set package 'picamera' build argument 'catkin_cmake_args' from command line to 'None'
+[4.610s] Level 5:colcon.colcon_core.verb:set package 'picamera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.610s] DEBUG:colcon.colcon_core.verb:Building package 'picamera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mobilehri/mobilehri_ws/build/picamera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mobilehri/mobilehri_ws/install/picamera', 'merge_install': False, 'path': '/home/mobilehri/mobilehri_ws/src/mobilehri2023/picamera', 'symlink_install': False, 'test_result_base': None}
+[4.617s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[4.617s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[4.618s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.618s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[4.618s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[4.618s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[4.619s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[4.619s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[4.619s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.619s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mobilehri/mobilehri_ws/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mobilehri/mobilehri_ws/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/mobilehri/mobilehri_ws/src/mobilehri2023/ydlidar_ros2_driver', 'symlink_install': False, 'test_result_base': None}
+[4.624s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.655s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.656s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mobilehri/mobilehri_ws/src/mobilehri2023/joy_teleop_keymapping' with build type 'ament_python'
+[4.674s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_teleop_keymapping', 'ament_prefix_path')
+[4.727s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/share/joy_teleop_keymapping/hook/ament_prefix_path.ps1'
+[4.792s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/share/joy_teleop_keymapping/hook/ament_prefix_path.dsv'
+[4.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/share/joy_teleop_keymapping/hook/ament_prefix_path.sh'
+[4.841s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.842s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.896s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mobilehri/mobilehri_ws/src/mobilehri2023/mobile_robot_control' with build type 'ament_python'
+[4.899s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobile_robot_control', 'ament_prefix_path')
+[4.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mobilehri/mobilehri_ws/install/mobile_robot_control/share/mobile_robot_control/hook/ament_prefix_path.ps1'
+[4.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mobilehri/mobilehri_ws/install/mobile_robot_control/share/mobile_robot_control/hook/ament_prefix_path.dsv'
+[4.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mobilehri/mobilehri_ws/install/mobile_robot_control/share/mobile_robot_control/hook/ament_prefix_path.sh'
+[4.937s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.938s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.976s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mobilehri/mobilehri_ws/src/my_package' with build type 'ament_python'
+[4.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'ament_prefix_path')
+[4.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mobilehri/mobilehri_ws/install/my_package/share/my_package/hook/ament_prefix_path.ps1'
+[4.996s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mobilehri/mobilehri_ws/install/my_package/share/my_package/hook/ament_prefix_path.dsv'
+[4.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mobilehri/mobilehri_ws/install/my_package/share/my_package/hook/ament_prefix_path.sh'
+[5.012s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.012s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.046s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mobilehri/mobilehri_ws/src/mobilehri2023/picamera' with build type 'ament_python'
+[5.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('picamera', 'ament_prefix_path')
+[5.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mobilehri/mobilehri_ws/install/picamera/share/picamera/hook/ament_prefix_path.ps1'
+[5.063s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mobilehri/mobilehri_ws/install/picamera/share/picamera/hook/ament_prefix_path.dsv'
+[5.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mobilehri/mobilehri_ws/install/picamera/share/picamera/hook/ament_prefix_path.sh'
+[5.079s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.080s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.580s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mobilehri/mobilehri_ws/src/mobilehri2023/joy_teleop_keymapping'
+[7.588s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.588s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.126s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mobilehri/mobilehri_ws/src/mobilehri2023/mobile_robot_control'
+[10.134s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.134s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.859s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mobilehri/mobilehri_ws/src/my_package'
+[12.868s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.869s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.232s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mobilehri/mobilehri_ws/src/mobilehri2023/picamera'
+[15.241s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.241s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mobilehri/mobilehri_ws/src/mobilehri2023/joy_teleop_keymapping': PYTHONPATH=/home/mobilehri/mobilehri_ws/build/joy_teleop_keymapping/prefix_override:/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/joy_teleop_keymapping build --build-base /home/mobilehri/mobilehri_ws/build/joy_teleop_keymapping/build install --record /home/mobilehri/mobilehri_ws/build/joy_teleop_keymapping/install.log --single-version-externally-managed
+[21.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mobilehri/mobilehri_ws/src/mobilehri2023/mobile_robot_control': PYTHONPATH=/home/mobilehri/mobilehri_ws/build/mobile_robot_control/prefix_override:/home/mobilehri/mobilehri_ws/install/mobile_robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mobile_robot_control build --build-base /home/mobilehri/mobilehri_ws/build/mobile_robot_control/build install --record /home/mobilehri/mobilehri_ws/build/mobile_robot_control/install.log --single-version-externally-managed
+[22.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mobilehri/mobilehri_ws/src/my_package': PYTHONPATH=/home/mobilehri/mobilehri_ws/build/my_package/prefix_override:/home/mobilehri/mobilehri_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/mobilehri/mobilehri_ws/build/my_package/build install --record /home/mobilehri/mobilehri_ws/build/my_package/install.log --single-version-externally-managed
+[23.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mobilehri/mobilehri_ws/src/mobilehri2023/picamera': PYTHONPATH=/home/mobilehri/mobilehri_ws/build/picamera/prefix_override:/home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/picamera build --build-base /home/mobilehri/mobilehri_ws/build/picamera/build install --record /home/mobilehri/mobilehri_ws/build/picamera/install.log --single-version-externally-managed
+[25.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mobilehri/mobilehri_ws/src/mobilehri2023/joy_teleop_keymapping' returned '0': PYTHONPATH=/home/mobilehri/mobilehri_ws/build/joy_teleop_keymapping/prefix_override:/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/joy_teleop_keymapping build --build-base /home/mobilehri/mobilehri_ws/build/joy_teleop_keymapping/build install --record /home/mobilehri/mobilehri_ws/build/joy_teleop_keymapping/install.log --single-version-externally-managed
+[25.715s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping' for CMake module files
+[25.726s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping' for CMake config files
+[25.788s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/lib'
+[25.790s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/bin'
+[25.791s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/lib/pkgconfig/joy_teleop_keymapping.pc'
+[25.792s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/lib/python3.10/site-packages'
+[25.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_teleop_keymapping', 'pythonpath')
+[25.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/share/joy_teleop_keymapping/hook/pythonpath.ps1'
+[25.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/share/joy_teleop_keymapping/hook/pythonpath.dsv'
+[25.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/share/joy_teleop_keymapping/hook/pythonpath.sh'
+[25.840s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/bin'
+[25.845s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_teleop_keymapping)
+[25.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/share/joy_teleop_keymapping/package.ps1'
+[25.876s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/share/joy_teleop_keymapping/package.dsv'
+[25.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/share/joy_teleop_keymapping/package.sh'
+[25.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/share/joy_teleop_keymapping/package.bash'
+[25.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/share/joy_teleop_keymapping/package.zsh'
+[25.950s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/share/colcon-core/packages/joy_teleop_keymapping)
+[25.971s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mobilehri/mobilehri_ws/src/mobilehri2023/ydlidar_ros2_driver' with build type 'ament_cmake'
+[25.972s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mobilehri/mobilehri_ws/src/mobilehri2023/ydlidar_ros2_driver'
+[25.988s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.988s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[26.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mobilehri/mobilehri_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mobilehri/mobilehri_ws/src/mobilehri2023/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/mobilehri/mobilehri_ws/install/ydlidar_ros2_driver
+[26.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mobilehri/mobilehri_ws/src/my_package' returned '0': PYTHONPATH=/home/mobilehri/mobilehri_ws/build/my_package/prefix_override:/home/mobilehri/mobilehri_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/mobilehri/mobilehri_ws/build/my_package/build install --record /home/mobilehri/mobilehri_ws/build/my_package/install.log --single-version-externally-managed
+[26.427s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/my_package' for CMake module files
+[26.444s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/my_package' for CMake config files
+[26.458s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/my_package/lib'
+[26.459s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/my_package/bin'
+[26.459s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/my_package/lib/pkgconfig/my_package.pc'
+[26.471s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/my_package/lib/python3.10/site-packages'
+[26.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'pythonpath')
+[26.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mobilehri/mobilehri_ws/install/my_package/share/my_package/hook/pythonpath.ps1'
+[26.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mobilehri/mobilehri_ws/install/my_package/share/my_package/hook/pythonpath.dsv'
+[26.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mobilehri/mobilehri_ws/install/my_package/share/my_package/hook/pythonpath.sh'
+[26.522s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/my_package/bin'
+[26.522s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[26.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/mobilehri/mobilehri_ws/install/my_package/share/my_package/package.ps1'
+[26.560s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mobilehri/mobilehri_ws/install/my_package/share/my_package/package.dsv'
+[26.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/mobilehri/mobilehri_ws/install/my_package/share/my_package/package.sh'
+[26.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/mobilehri/mobilehri_ws/install/my_package/share/my_package/package.bash'
+[26.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/mobilehri/mobilehri_ws/install/my_package/share/my_package/package.zsh'
+[26.588s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mobilehri/mobilehri_ws/install/my_package/share/colcon-core/packages/my_package)
+[26.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mobilehri/mobilehri_ws/src/mobilehri2023/mobile_robot_control' returned '0': PYTHONPATH=/home/mobilehri/mobilehri_ws/build/mobile_robot_control/prefix_override:/home/mobilehri/mobilehri_ws/install/mobile_robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mobile_robot_control build --build-base /home/mobilehri/mobilehri_ws/build/mobile_robot_control/build install --record /home/mobilehri/mobilehri_ws/build/mobile_robot_control/install.log --single-version-externally-managed
+[26.674s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/mobile_robot_control' for CMake module files
+[26.679s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/mobile_robot_control' for CMake config files
+[26.688s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/mobile_robot_control/lib'
+[26.689s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/mobile_robot_control/bin'
+[26.690s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/mobile_robot_control/lib/pkgconfig/mobile_robot_control.pc'
+[26.692s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/mobile_robot_control/lib/python3.10/site-packages'
+[26.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobile_robot_control', 'pythonpath')
+[26.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mobilehri/mobilehri_ws/install/mobile_robot_control/share/mobile_robot_control/hook/pythonpath.ps1'
+[26.708s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mobilehri/mobilehri_ws/install/mobile_robot_control/share/mobile_robot_control/hook/pythonpath.dsv'
+[26.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mobilehri/mobilehri_ws/install/mobile_robot_control/share/mobile_robot_control/hook/pythonpath.sh'
+[26.719s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/mobile_robot_control/bin'
+[26.720s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mobile_robot_control)
+[26.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/mobilehri/mobilehri_ws/install/mobile_robot_control/share/mobile_robot_control/package.ps1'
+[26.781s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mobilehri/mobilehri_ws/install/mobile_robot_control/share/mobile_robot_control/package.dsv'
+[26.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/mobilehri/mobilehri_ws/install/mobile_robot_control/share/mobile_robot_control/package.sh'
+[26.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/mobilehri/mobilehri_ws/install/mobile_robot_control/share/mobile_robot_control/package.bash'
+[26.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/mobilehri/mobilehri_ws/install/mobile_robot_control/share/mobile_robot_control/package.zsh'
+[26.795s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mobilehri/mobilehri_ws/install/mobile_robot_control/share/colcon-core/packages/mobile_robot_control)
+[26.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mobilehri/mobilehri_ws/src/mobilehri2023/picamera' returned '0': PYTHONPATH=/home/mobilehri/mobilehri_ws/build/picamera/prefix_override:/home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/picamera build --build-base /home/mobilehri/mobilehri_ws/build/picamera/build install --record /home/mobilehri/mobilehri_ws/build/picamera/install.log --single-version-externally-managed
+[26.819s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/picamera' for CMake module files
+[26.822s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/picamera' for CMake config files
+[26.827s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/picamera/lib'
+[26.828s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/picamera/bin'
+[26.828s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/picamera/lib/pkgconfig/picamera.pc'
+[26.830s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages'
+[26.831s] Level 1:colcon.colcon_core.shell:create_environment_hook('picamera', 'pythonpath')
+[26.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mobilehri/mobilehri_ws/install/picamera/share/picamera/hook/pythonpath.ps1'
+[26.848s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mobilehri/mobilehri_ws/install/picamera/share/picamera/hook/pythonpath.dsv'
+[26.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mobilehri/mobilehri_ws/install/picamera/share/picamera/hook/pythonpath.sh'
+[26.857s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/picamera/bin'
+[26.857s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(picamera)
+[26.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/mobilehri/mobilehri_ws/install/picamera/share/picamera/package.ps1'
+[26.871s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mobilehri/mobilehri_ws/install/picamera/share/picamera/package.dsv'
+[26.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/mobilehri/mobilehri_ws/install/picamera/share/picamera/package.sh'
+[26.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/mobilehri/mobilehri_ws/install/picamera/share/picamera/package.bash'
+[26.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/mobilehri/mobilehri_ws/install/picamera/share/picamera/package.zsh'
+[26.883s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mobilehri/mobilehri_ws/install/picamera/share/colcon-core/packages/picamera)
+[32.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mobilehri/mobilehri_ws/build/ydlidar_ros2_driver' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mobilehri/mobilehri_ws/src/mobilehri2023/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/mobilehri/mobilehri_ws/install/ydlidar_ros2_driver
+[32.518s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[32.529s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/ydlidar_ros2_driver' for CMake module files
+[32.532s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/ydlidar_ros2_driver' for CMake config files
+[32.535s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/ydlidar_ros2_driver/bin'
+[32.535s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[32.537s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[32.538s] Level 1:colcon.colcon_core.environment:checking '/home/mobilehri/mobilehri_ws/install/ydlidar_ros2_driver/bin'
+[32.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/mobilehri/mobilehri_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[32.548s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mobilehri/mobilehri_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[32.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/mobilehri/mobilehri_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[32.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/mobilehri/mobilehri_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[32.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/mobilehri/mobilehri_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[32.556s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mobilehri/mobilehri_ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[32.568s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[32.569s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[32.569s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[32.570s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[32.618s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[32.618s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[32.619s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[57.645s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+[57.649s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[57.662s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mobilehri/mobilehri_ws/install/local_setup.ps1'
+[57.668s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mobilehri/mobilehri_ws/install/_local_setup_util_ps1.py'
+[57.682s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mobilehri/mobilehri_ws/install/setup.ps1'
+[57.691s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mobilehri/mobilehri_ws/install/local_setup.sh'
+[57.695s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mobilehri/mobilehri_ws/install/_local_setup_util_sh.py'
+[57.699s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mobilehri/mobilehri_ws/install/setup.sh'
+[57.709s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mobilehri/mobilehri_ws/install/local_setup.bash'
+[57.714s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mobilehri/mobilehri_ws/install/setup.bash'
+[57.723s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mobilehri/mobilehri_ws/install/local_setup.zsh'
+[57.729s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mobilehri/mobilehri_ws/install/setup.zsh'

@@ -1,0 +1,37 @@
+running egg_info
+creating ../../../build/picamera/picamera.egg-info
+writing ../../../build/picamera/picamera.egg-info/PKG-INFO
+writing dependency_links to ../../../build/picamera/picamera.egg-info/dependency_links.txt
+writing entry points to ../../../build/picamera/picamera.egg-info/entry_points.txt
+writing requirements to ../../../build/picamera/picamera.egg-info/requires.txt
+writing top-level names to ../../../build/picamera/picamera.egg-info/top_level.txt
+writing manifest file '../../../build/picamera/picamera.egg-info/SOURCES.txt'
+reading manifest file '../../../build/picamera/picamera.egg-info/SOURCES.txt'
+writing manifest file '../../../build/picamera/picamera.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mobilehri/mobilehri_ws/build/picamera/build
+creating /home/mobilehri/mobilehri_ws/build/picamera/build/lib
+creating /home/mobilehri/mobilehri_ws/build/picamera/build/lib/picamera
+copying picamera/__init__.py -> /home/mobilehri/mobilehri_ws/build/picamera/build/lib/picamera
+copying picamera/picamera_node.py -> /home/mobilehri/mobilehri_ws/build/picamera/build/lib/picamera
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages/picamera
+copying /home/mobilehri/mobilehri_ws/build/picamera/build/lib/picamera/__init__.py -> /home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages/picamera
+copying /home/mobilehri/mobilehri_ws/build/picamera/build/lib/picamera/picamera_node.py -> /home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages/picamera
+byte-compiling /home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages/picamera/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages/picamera/picamera_node.py to picamera_node.cpython-310.pyc
+running install_data
+creating /home/mobilehri/mobilehri_ws/install/picamera/share/ament_index
+creating /home/mobilehri/mobilehri_ws/install/picamera/share/ament_index/resource_index
+creating /home/mobilehri/mobilehri_ws/install/picamera/share/ament_index/resource_index/packages
+copying resource/picamera -> /home/mobilehri/mobilehri_ws/install/picamera/share/ament_index/resource_index/packages
+copying package.xml -> /home/mobilehri/mobilehri_ws/install/picamera/share/picamera
+running install_egg_info
+Copying ../../../build/picamera/picamera.egg-info to /home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages/picamera-0.0.0-py3.10.egg-info
+running install_scripts
+Installing picamera_node script to /home/mobilehri/mobilehri_ws/install/picamera/lib/picamera
+writing list of installed files to '/home/mobilehri/mobilehri_ws/build/picamera/install.log'

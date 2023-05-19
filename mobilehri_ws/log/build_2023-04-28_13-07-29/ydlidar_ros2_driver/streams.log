@@ -1,0 +1,54 @@
+[0.238s] Invoking command in '/home/mobilehri/mobilehri_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mobilehri/mobilehri_ws/src/mobilehri2023/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/mobilehri/mobilehri_ws/install/ydlidar_ros2_driver
+[1.981s] -- The C compiler identification is GNU 11.3.0
+[4.533s] -- The CXX compiler identification is GNU 11.3.0
+[4.994s] -- Detecting C compiler ABI info
+[5.586s] -- Detecting C compiler ABI info - done
+[5.619s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.623s] -- Detecting C compile features
+[5.627s] -- Detecting C compile features - done
+[5.649s] -- Detecting CXX compiler ABI info
+[6.128s] -- Detecting CXX compiler ABI info - done
+[6.158s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.160s] -- Detecting CXX compile features
+[6.162s] -- Detecting CXX compile features - done
+[6.208s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.413s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[8.273s] -- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+[9.000s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[9.064s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.189s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[9.481s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.734s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.284s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[10.320s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[11.299s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[11.641s] -- Found FastRTPS: /opt/ros/humble/include  
+[12.243s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.407s] -- Looking for pthread.h
+[12.882s] -- Looking for pthread.h - found
+[12.884s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[13.309s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[13.314s] -- Found Threads: TRUE  
+[14.351s] -- Found sensor_msgs: 4.2.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[15.122s] -- Found visualization_msgs: 4.2.2 (/opt/ros/humble/share/visualization_msgs/cmake)
+[15.737s] -- Found std_srvs: 4.2.2 (/opt/ros/humble/share/std_srvs/cmake)
+[16.076s] [31mCMake Error at CMakeLists.txt:25 (find_package):
+[16.077s]   By not providing "Findydlidar_sdk.cmake" in CMAKE_MODULE_PATH this project
+[16.079s]   has asked CMake to find a package configuration file provided by
+[16.080s]   "ydlidar_sdk", but CMake did not find one.
+[16.080s] 
+[16.081s]   Could not find a package configuration file provided by "ydlidar_sdk" with
+[16.081s]   any of the following names:
+[16.082s] 
+[16.083s]     ydlidar_sdkConfig.cmake
+[16.084s]     ydlidar_sdk-config.cmake
+[16.085s] 
+[16.086s]   Add the installation prefix of "ydlidar_sdk" to CMAKE_PREFIX_PATH or set
+[16.086s]   "ydlidar_sdk_DIR" to a directory containing one of the above files.  If
+[16.087s]   "ydlidar_sdk" provides a separate development package or SDK, be sure it
+[16.088s]   has been installed.
+[16.089s] 
+[16.089s] [0m
+[16.090s] -- Configuring incomplete, errors occurred!
+[16.091s] See also "/home/mobilehri/mobilehri_ws/build/ydlidar_ros2_driver/CMakeFiles/CMakeOutput.log".
+[16.135s] Invoked command in '/home/mobilehri/mobilehri_ws/build/ydlidar_ros2_driver' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mobilehri/mobilehri_ws/src/mobilehri2023/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/mobilehri/mobilehri_ws/install/ydlidar_ros2_driver

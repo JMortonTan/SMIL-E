@@ -1,0 +1,361 @@
+[0.000000] (-) TimerEvent: {}
+[0.002557] (joy_teleop_keymapping) JobQueued: {'identifier': 'joy_teleop_keymapping', 'dependencies': OrderedDict()}
+[0.010134] (mobile_robot_control) JobQueued: {'identifier': 'mobile_robot_control', 'dependencies': OrderedDict()}
+[0.010372] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.010805] (picamera) JobQueued: {'identifier': 'picamera', 'dependencies': OrderedDict()}
+[0.010947] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.011059] (joy_teleop_keymapping) JobStarted: {'identifier': 'joy_teleop_keymapping'}
+[0.081036] (mobile_robot_control) JobStarted: {'identifier': 'mobile_robot_control'}
+[0.097176] (-) TimerEvent: {}
+[0.141286] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.196439] (picamera) JobStarted: {'identifier': 'picamera'}
+[0.202471] (-) TimerEvent: {}
+[0.305202] (-) TimerEvent: {}
+[0.406387] (-) TimerEvent: {}
+[0.507678] (-) TimerEvent: {}
+[0.608500] (-) TimerEvent: {}
+[0.710370] (-) TimerEvent: {}
+[0.811111] (-) TimerEvent: {}
+[0.911975] (-) TimerEvent: {}
+[1.012840] (-) TimerEvent: {}
+[1.115734] (-) TimerEvent: {}
+[1.216481] (-) TimerEvent: {}
+[1.317283] (-) TimerEvent: {}
+[1.418129] (-) TimerEvent: {}
+[1.518896] (-) TimerEvent: {}
+[1.619679] (-) TimerEvent: {}
+[1.720423] (-) TimerEvent: {}
+[1.821232] (-) TimerEvent: {}
+[1.922070] (-) TimerEvent: {}
+[2.023079] (-) TimerEvent: {}
+[2.124715] (-) TimerEvent: {}
+[2.226135] (-) TimerEvent: {}
+[2.326987] (-) TimerEvent: {}
+[2.427823] (-) TimerEvent: {}
+[2.528799] (-) TimerEvent: {}
+[2.629618] (-) TimerEvent: {}
+[2.730381] (-) TimerEvent: {}
+[2.831130] (-) TimerEvent: {}
+[2.931962] (-) TimerEvent: {}
+[3.032672] (-) TimerEvent: {}
+[3.133446] (-) TimerEvent: {}
+[3.234338] (-) TimerEvent: {}
+[3.335123] (-) TimerEvent: {}
+[3.436309] (-) TimerEvent: {}
+[3.538571] (-) TimerEvent: {}
+[3.639582] (-) TimerEvent: {}
+[3.740648] (-) TimerEvent: {}
+[3.841380] (-) TimerEvent: {}
+[3.942394] (-) TimerEvent: {}
+[4.043252] (-) TimerEvent: {}
+[4.144270] (-) TimerEvent: {}
+[4.245117] (-) TimerEvent: {}
+[4.347857] (-) TimerEvent: {}
+[4.449203] (-) TimerEvent: {}
+[4.549998] (-) TimerEvent: {}
+[4.650686] (-) TimerEvent: {}
+[4.751517] (-) TimerEvent: {}
+[4.852360] (-) TimerEvent: {}
+[4.953219] (-) TimerEvent: {}
+[5.055638] (-) TimerEvent: {}
+[5.156433] (-) TimerEvent: {}
+[5.257240] (-) TimerEvent: {}
+[5.358055] (-) TimerEvent: {}
+[5.458824] (-) TimerEvent: {}
+[5.559564] (-) TimerEvent: {}
+[5.663406] (-) TimerEvent: {}
+[5.764231] (-) TimerEvent: {}
+[5.865665] (-) TimerEvent: {}
+[5.969845] (-) TimerEvent: {}
+[6.079749] (-) TimerEvent: {}
+[6.180903] (-) TimerEvent: {}
+[6.282087] (-) TimerEvent: {}
+[6.383046] (-) TimerEvent: {}
+[6.484146] (-) TimerEvent: {}
+[6.584995] (-) TimerEvent: {}
+[6.685733] (-) TimerEvent: {}
+[6.786442] (-) TimerEvent: {}
+[6.887243] (-) TimerEvent: {}
+[6.988027] (-) TimerEvent: {}
+[7.088866] (-) TimerEvent: {}
+[7.189692] (-) TimerEvent: {}
+[7.745765] (-) TimerEvent: {}
+[7.847628] (-) TimerEvent: {}
+[7.948724] (-) TimerEvent: {}
+[8.049671] (-) TimerEvent: {}
+[8.150547] (-) TimerEvent: {}
+[8.251382] (-) TimerEvent: {}
+[8.352146] (-) TimerEvent: {}
+[8.453702] (-) TimerEvent: {}
+[8.556428] (-) TimerEvent: {}
+[8.664669] (-) TimerEvent: {}
+[8.766614] (-) TimerEvent: {}
+[8.868736] (-) TimerEvent: {}
+[8.970442] (-) TimerEvent: {}
+[9.072660] (-) TimerEvent: {}
+[9.174292] (-) TimerEvent: {}
+[9.275138] (-) TimerEvent: {}
+[9.398258] (-) TimerEvent: {}
+[9.499353] (-) TimerEvent: {}
+[9.600604] (-) TimerEvent: {}
+[9.701584] (-) TimerEvent: {}
+[9.802496] (-) TimerEvent: {}
+[9.903613] (-) TimerEvent: {}
+[10.004750] (-) TimerEvent: {}
+[10.105626] (-) TimerEvent: {}
+[10.206562] (-) TimerEvent: {}
+[10.307406] (-) TimerEvent: {}
+[10.408276] (-) TimerEvent: {}
+[10.511556] (-) TimerEvent: {}
+[10.614710] (-) TimerEvent: {}
+[10.717319] (-) TimerEvent: {}
+[10.818357] (-) TimerEvent: {}
+[10.919393] (-) TimerEvent: {}
+[11.021225] (-) TimerEvent: {}
+[11.122335] (-) TimerEvent: {}
+[11.225368] (-) TimerEvent: {}
+[11.326240] (-) TimerEvent: {}
+[11.427085] (-) TimerEvent: {}
+[11.530279] (-) TimerEvent: {}
+[11.634322] (-) TimerEvent: {}
+[11.710741] (joy_teleop_keymapping) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/joy_teleop_keymapping', 'build', '--build-base', '/home/mobilehri/mobilehri_ws/build/joy_teleop_keymapping/build', 'install', '--record', '/home/mobilehri/mobilehri_ws/build/joy_teleop_keymapping/install.log', '--single-version-externally-managed'], 'cwd': '/home/mobilehri/mobilehri_ws/src/mobilehri2023/joy_teleop_keymapping', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mobilehri', 'SSH_CLIENT': '10.56.6.214 52369 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/mobilehri', 'OLDPWD': '/home/mobilehri/mobilehri_ws', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/mobilehri/mobilehri_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mobilehri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1375', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/mobilehri/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/mobilehri/mobilehri_ws/install/picamera:/home/mobilehri/mobilehri_ws/install/my_package:/home/mobilehri/mobilehri_ws/install/mobile_robot_control:/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/mobilehri/mobilehri_ws/build/joy_teleop_keymapping', 'SSH_CONNECTION': '10.56.6.214 52369 10.56.129.75 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mobilehri/mobilehri_ws/build/joy_teleop_keymapping/prefix_override:/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/lib/python3.10/site-packages:/home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages:/home/mobilehri/mobilehri_ws/install/my_package/lib/python3.10/site-packages:/home/mobilehri/mobilehri_ws/install/mobile_robot_control/lib/python3.10/site-packages:/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[11.735235] (-) TimerEvent: {}
+[11.838152] (-) TimerEvent: {}
+[11.939674] (-) TimerEvent: {}
+[12.040530] (-) TimerEvent: {}
+[12.142020] (-) TimerEvent: {}
+[12.243505] (-) TimerEvent: {}
+[12.332423] (mobile_robot_control) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/mobile_robot_control', 'build', '--build-base', '/home/mobilehri/mobilehri_ws/build/mobile_robot_control/build', 'install', '--record', '/home/mobilehri/mobilehri_ws/build/mobile_robot_control/install.log', '--single-version-externally-managed'], 'cwd': '/home/mobilehri/mobilehri_ws/src/mobilehri2023/mobile_robot_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mobilehri', 'SSH_CLIENT': '10.56.6.214 52369 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/mobilehri', 'OLDPWD': '/home/mobilehri/mobilehri_ws', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/mobilehri/mobilehri_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mobilehri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1375', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/mobilehri/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/mobilehri/mobilehri_ws/install/picamera:/home/mobilehri/mobilehri_ws/install/my_package:/home/mobilehri/mobilehri_ws/install/mobile_robot_control:/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/mobilehri/mobilehri_ws/build/mobile_robot_control', 'SSH_CONNECTION': '10.56.6.214 52369 10.56.129.75 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mobilehri/mobilehri_ws/build/mobile_robot_control/prefix_override:/home/mobilehri/mobilehri_ws/install/mobile_robot_control/lib/python3.10/site-packages:/home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages:/home/mobilehri/mobilehri_ws/install/my_package/lib/python3.10/site-packages:/home/mobilehri/mobilehri_ws/install/mobile_robot_control/lib/python3.10/site-packages:/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[12.351115] (-) TimerEvent: {}
+[12.452948] (-) TimerEvent: {}
+[12.555356] (-) TimerEvent: {}
+[12.611611] (my_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package', 'build', '--build-base', '/home/mobilehri/mobilehri_ws/build/my_package/build', 'install', '--record', '/home/mobilehri/mobilehri_ws/build/my_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/mobilehri/mobilehri_ws/src/my_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mobilehri', 'SSH_CLIENT': '10.56.6.214 52369 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/mobilehri', 'OLDPWD': '/home/mobilehri/mobilehri_ws', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/mobilehri/mobilehri_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mobilehri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1375', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/mobilehri/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/mobilehri/mobilehri_ws/install/picamera:/home/mobilehri/mobilehri_ws/install/my_package:/home/mobilehri/mobilehri_ws/install/mobile_robot_control:/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/mobilehri/mobilehri_ws/build/my_package', 'SSH_CONNECTION': '10.56.6.214 52369 10.56.129.75 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mobilehri/mobilehri_ws/build/my_package/prefix_override:/home/mobilehri/mobilehri_ws/install/my_package/lib/python3.10/site-packages:/home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages:/home/mobilehri/mobilehri_ws/install/my_package/lib/python3.10/site-packages:/home/mobilehri/mobilehri_ws/install/mobile_robot_control/lib/python3.10/site-packages:/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[12.655588] (-) TimerEvent: {}
+[12.757980] (-) TimerEvent: {}
+[12.797794] (picamera) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/picamera', 'build', '--build-base', '/home/mobilehri/mobilehri_ws/build/picamera/build', 'install', '--record', '/home/mobilehri/mobilehri_ws/build/picamera/install.log', '--single-version-externally-managed'], 'cwd': '/home/mobilehri/mobilehri_ws/src/mobilehri2023/picamera', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mobilehri', 'SSH_CLIENT': '10.56.6.214 52369 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/mobilehri', 'OLDPWD': '/home/mobilehri/mobilehri_ws', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/mobilehri/mobilehri_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mobilehri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1375', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/mobilehri/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/mobilehri/mobilehri_ws/install/picamera:/home/mobilehri/mobilehri_ws/install/my_package:/home/mobilehri/mobilehri_ws/install/mobile_robot_control:/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/mobilehri/mobilehri_ws/build/picamera', 'SSH_CONNECTION': '10.56.6.214 52369 10.56.129.75 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mobilehri/mobilehri_ws/build/picamera/prefix_override:/home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages:/home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages:/home/mobilehri/mobilehri_ws/install/my_package/lib/python3.10/site-packages:/home/mobilehri/mobilehri_ws/install/mobile_robot_control/lib/python3.10/site-packages:/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[12.858524] (-) TimerEvent: {}
+[12.959453] (-) TimerEvent: {}
+[13.061408] (-) TimerEvent: {}
+[13.163526] (-) TimerEvent: {}
+[13.264988] (-) TimerEvent: {}
+[13.366261] (-) TimerEvent: {}
+[13.467251] (-) TimerEvent: {}
+[13.568062] (-) TimerEvent: {}
+[13.668926] (-) TimerEvent: {}
+[13.769752] (-) TimerEvent: {}
+[13.870579] (-) TimerEvent: {}
+[13.972425] (-) TimerEvent: {}
+[14.073284] (-) TimerEvent: {}
+[14.174578] (-) TimerEvent: {}
+[14.275452] (-) TimerEvent: {}
+[14.376328] (-) TimerEvent: {}
+[14.477253] (-) TimerEvent: {}
+[14.578197] (-) TimerEvent: {}
+[14.679122] (-) TimerEvent: {}
+[14.780025] (-) TimerEvent: {}
+[14.881826] (-) TimerEvent: {}
+[14.982741] (-) TimerEvent: {}
+[15.084578] (-) TimerEvent: {}
+[15.166559] (mobile_robot_control) StdoutLine: {'line': b'running egg_info\n'}
+[15.171417] (mobile_robot_control) StdoutLine: {'line': b'writing ../../../build/mobile_robot_control/mobile_robot_control.egg-info/PKG-INFO\n'}
+[15.172299] (mobile_robot_control) StdoutLine: {'line': b'writing dependency_links to ../../../build/mobile_robot_control/mobile_robot_control.egg-info/dependency_links.txt\n'}
+[15.173266] (mobile_robot_control) StdoutLine: {'line': b'writing entry points to ../../../build/mobile_robot_control/mobile_robot_control.egg-info/entry_points.txt\n'}
+[15.174407] (mobile_robot_control) StdoutLine: {'line': b'writing requirements to ../../../build/mobile_robot_control/mobile_robot_control.egg-info/requires.txt\n'}
+[15.175315] (mobile_robot_control) StdoutLine: {'line': b'writing top-level names to ../../../build/mobile_robot_control/mobile_robot_control.egg-info/top_level.txt\n'}
+[15.184740] (-) TimerEvent: {}
+[15.186224] (mobile_robot_control) StdoutLine: {'line': b"reading manifest file '../../../build/mobile_robot_control/mobile_robot_control.egg-info/SOURCES.txt'\n"}
+[15.191439] (mobile_robot_control) StdoutLine: {'line': b"writing manifest file '../../../build/mobile_robot_control/mobile_robot_control.egg-info/SOURCES.txt'\n"}
+[15.192296] (mobile_robot_control) StdoutLine: {'line': b'running build\n'}
+[15.193109] (mobile_robot_control) StdoutLine: {'line': b'running build_py\n'}
+[15.195703] (mobile_robot_control) StdoutLine: {'line': b'copying mobile_robot_control/odrive_command.py -> /home/mobilehri/mobilehri_ws/build/mobile_robot_control/build/lib/mobile_robot_control\n'}
+[15.196608] (mobile_robot_control) StdoutLine: {'line': b'running install\n'}
+[15.197470] (mobile_robot_control) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[15.198175] (mobile_robot_control) StderrLine: {'line': b'  warnings.warn(\n'}
+[15.198899] (mobile_robot_control) StdoutLine: {'line': b'running install_lib\n'}
+[15.203361] (mobile_robot_control) StdoutLine: {'line': b'copying /home/mobilehri/mobilehri_ws/build/mobile_robot_control/build/lib/mobile_robot_control/odrive_command.py -> /home/mobilehri/mobilehri_ws/install/mobile_robot_control/lib/python3.10/site-packages/mobile_robot_control\n'}
+[15.207247] (mobile_robot_control) StdoutLine: {'line': b'byte-compiling /home/mobilehri/mobilehri_ws/install/mobile_robot_control/lib/python3.10/site-packages/mobile_robot_control/odrive_command.py to odrive_command.cpython-310.pyc\n'}
+[15.215000] (mobile_robot_control) StdoutLine: {'line': b'running install_data\n'}
+[15.218558] (mobile_robot_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.226574] (mobile_robot_control) StdoutLine: {'line': b"removing '/home/mobilehri/mobilehri_ws/install/mobile_robot_control/lib/python3.10/site-packages/mobile_robot_control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[15.228954] (mobile_robot_control) StdoutLine: {'line': b'Copying ../../../build/mobile_robot_control/mobile_robot_control.egg-info to /home/mobilehri/mobilehri_ws/install/mobile_robot_control/lib/python3.10/site-packages/mobile_robot_control-0.0.0-py3.10.egg-info\n'}
+[15.237414] (mobile_robot_control) StdoutLine: {'line': b'running install_scripts\n'}
+[15.284948] (-) TimerEvent: {}
+[15.346976] (mobile_robot_control) StdoutLine: {'line': b'Installing mobile_robot_control_node script to /home/mobilehri/mobilehri_ws/install/mobile_robot_control/lib/mobile_robot_control\n'}
+[15.349132] (mobile_robot_control) StdoutLine: {'line': b"writing list of installed files to '/home/mobilehri/mobilehri_ws/build/mobile_robot_control/install.log'\n"}
+[15.385243] (-) TimerEvent: {}
+[15.487467] (-) TimerEvent: {}
+[15.514458] (mobile_robot_control) CommandEnded: {'returncode': 0}
+[15.589295] (-) TimerEvent: {}
+[15.625661] (mobile_robot_control) JobEnded: {'identifier': 'mobile_robot_control', 'rc': 0}
+[15.631220] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[15.698238] (-) TimerEvent: {}
+[15.781161] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[15.785469] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/mobilehri/mobilehri_ws/src/mobilehri2023/ydlidar_ros2_driver', '-DCMAKE_INSTALL_PREFIX=/home/mobilehri/mobilehri_ws/install/ydlidar_ros2_driver'], 'cwd': '/home/mobilehri/mobilehri_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mobilehri'), ('SSH_CLIENT', '10.56.6.214 52369 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mobilehri'), ('OLDPWD', '/home/mobilehri/mobilehri_ws'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/mobilehri/mobilehri_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mobilehri'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1375'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mobilehri/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/mobilehri/mobilehri_ws/install/picamera:/home/mobilehri/mobilehri_ws/install/my_package:/home/mobilehri/mobilehri_ws/install/mobile_robot_control:/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/mobilehri/mobilehri_ws/build/ydlidar_ros2_driver'), ('SSH_CONNECTION', '10.56.6.214 52369 10.56.129.75 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages:/home/mobilehri/mobilehri_ws/install/my_package/lib/python3.10/site-packages:/home/mobilehri/mobilehri_ws/install/mobile_robot_control/lib/python3.10/site-packages:/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mobilehri/mobilehri_ws/install/picamera:/home/mobilehri/mobilehri_ws/install/my_package:/home/mobilehri/mobilehri_ws/install/mobile_robot_control:/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping:/opt/ros/humble')]), 'shell': False}
+[15.811869] (-) TimerEvent: {}
+[15.883580] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[15.912129] (-) TimerEvent: {}
+[16.013784] (-) TimerEvent: {}
+[16.076340] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[16.081542] (my_package) StdoutLine: {'line': b'writing ../../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[16.084161] (my_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[16.086784] (my_package) StdoutLine: {'line': b'writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[16.089674] (my_package) StdoutLine: {'line': b'writing requirements to ../../build/my_package/my_package.egg-info/requires.txt\n'}
+[16.092276] (my_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt\n'}
+[16.105848] (my_package) StdoutLine: {'line': b"reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[16.113108] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[16.113812] (-) TimerEvent: {}
+[16.116491] (my_package) StdoutLine: {'line': b'running build\n'}
+[16.118325] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[16.122076] (my_package) StdoutLine: {'line': b'running install\n'}
+[16.124098] (my_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[16.125315] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[16.128289] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[16.138125] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[16.143652] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[16.155887] (my_package) StdoutLine: {'line': b"removing '/home/mobilehri/mobilehri_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[16.159639] (my_package) StdoutLine: {'line': b'Copying ../../build/my_package/my_package.egg-info to /home/mobilehri/mobilehri_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info\n'}
+[16.172361] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[16.211993] (picamera) StdoutLine: {'line': b'running egg_info\n'}
+[16.214027] (-) TimerEvent: {}
+[16.216304] (picamera) StdoutLine: {'line': b'writing ../../../build/picamera/picamera.egg-info/PKG-INFO\n'}
+[16.217615] (picamera) StdoutLine: {'line': b'writing dependency_links to ../../../build/picamera/picamera.egg-info/dependency_links.txt\n'}
+[16.219424] (picamera) StdoutLine: {'line': b'writing entry points to ../../../build/picamera/picamera.egg-info/entry_points.txt\n'}
+[16.220494] (picamera) StdoutLine: {'line': b'writing requirements to ../../../build/picamera/picamera.egg-info/requires.txt\n'}
+[16.221430] (picamera) StdoutLine: {'line': b'writing top-level names to ../../../build/picamera/picamera.egg-info/top_level.txt\n'}
+[16.234343] (picamera) StdoutLine: {'line': b"reading manifest file '../../../build/picamera/picamera.egg-info/SOURCES.txt'\n"}
+[16.239757] (picamera) StdoutLine: {'line': b"writing manifest file '../../../build/picamera/picamera.egg-info/SOURCES.txt'\n"}
+[16.245505] (picamera) StdoutLine: {'line': b'running build\n'}
+[16.257883] (picamera) StdoutLine: {'line': b'running build_py\n'}
+[16.258671] (picamera) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[16.259702] (picamera) StderrLine: {'line': b'  warnings.warn(\n'}
+[16.260256] (picamera) StdoutLine: {'line': b'running install\n'}
+[16.261147] (picamera) StdoutLine: {'line': b'running install_lib\n'}
+[16.261892] (picamera) StdoutLine: {'line': b'running install_data\n'}
+[16.262589] (picamera) StdoutLine: {'line': b'running install_egg_info\n'}
+[16.266886] (picamera) StdoutLine: {'line': b"removing '/home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages/picamera-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[16.283653] (picamera) StdoutLine: {'line': b'Copying ../../../build/picamera/picamera.egg-info to /home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages/picamera-0.0.0-py3.10.egg-info\n'}
+[16.284369] (picamera) StdoutLine: {'line': b'running install_scripts\n'}
+[16.314622] (-) TimerEvent: {}
+[16.422702] (-) TimerEvent: {}
+[16.428870] (picamera) StdoutLine: {'line': b'Installing picamera_node script to /home/mobilehri/mobilehri_ws/install/picamera/lib/picamera\n'}
+[16.437725] (picamera) StdoutLine: {'line': b"writing list of installed files to '/home/mobilehri/mobilehri_ws/build/picamera/install.log'\n"}
+[16.468122] (my_package) StdoutLine: {'line': b"writing list of installed files to '/home/mobilehri/mobilehri_ws/build/my_package/install.log'\n"}
+[16.539578] (-) TimerEvent: {}
+[16.640657] (-) TimerEvent: {}
+[16.741519] (-) TimerEvent: {}
+[16.817271] (picamera) CommandEnded: {'returncode': 0}
+[16.833858] (joy_teleop_keymapping) StdoutLine: {'line': b'running egg_info\n'}
+[16.847251] (joy_teleop_keymapping) StdoutLine: {'line': b'writing ../../../build/joy_teleop_keymapping/joy_teleop_keymapping.egg-info/PKG-INFO\n'}
+[16.848082] (-) TimerEvent: {}
+[16.853352] (joy_teleop_keymapping) StdoutLine: {'line': b'writing dependency_links to ../../../build/joy_teleop_keymapping/joy_teleop_keymapping.egg-info/dependency_links.txt\n'}
+[16.854553] (joy_teleop_keymapping) StdoutLine: {'line': b'writing entry points to ../../../build/joy_teleop_keymapping/joy_teleop_keymapping.egg-info/entry_points.txt\n'}
+[16.855991] (joy_teleop_keymapping) StdoutLine: {'line': b'writing requirements to ../../../build/joy_teleop_keymapping/joy_teleop_keymapping.egg-info/requires.txt\n'}
+[16.856841] (joy_teleop_keymapping) StdoutLine: {'line': b'writing top-level names to ../../../build/joy_teleop_keymapping/joy_teleop_keymapping.egg-info/top_level.txt\n'}
+[16.870008] (joy_teleop_keymapping) StdoutLine: {'line': b"reading manifest file '../../../build/joy_teleop_keymapping/joy_teleop_keymapping.egg-info/SOURCES.txt'\n"}
+[16.881197] (joy_teleop_keymapping) StdoutLine: {'line': b"writing manifest file '../../../build/joy_teleop_keymapping/joy_teleop_keymapping.egg-info/SOURCES.txt'\n"}
+[16.881872] (joy_teleop_keymapping) StdoutLine: {'line': b'running build\n'}
+[16.882391] (joy_teleop_keymapping) StdoutLine: {'line': b'running build_py\n'}
+[16.882968] (joy_teleop_keymapping) StdoutLine: {'line': b'running install\n'}
+[16.884905] (joy_teleop_keymapping) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[16.885669] (joy_teleop_keymapping) StderrLine: {'line': b'  warnings.warn(\n'}
+[16.886197] (joy_teleop_keymapping) StdoutLine: {'line': b'running install_lib\n'}
+[16.892155] (joy_teleop_keymapping) StdoutLine: {'line': b'running install_data\n'}
+[16.896761] (joy_teleop_keymapping) StdoutLine: {'line': b'running install_egg_info\n'}
+[16.910991] (joy_teleop_keymapping) StdoutLine: {'line': b"removing '/home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/lib/python3.10/site-packages/joy_teleop_keymapping-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[16.912053] (joy_teleop_keymapping) StdoutLine: {'line': b'Copying ../../../build/joy_teleop_keymapping/joy_teleop_keymapping.egg-info to /home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/lib/python3.10/site-packages/joy_teleop_keymapping-0.0.0-py3.10.egg-info\n'}
+[16.922816] (joy_teleop_keymapping) StdoutLine: {'line': b'running install_scripts\n'}
+[16.933527] (picamera) JobEnded: {'identifier': 'picamera', 'rc': 0}
+[16.944405] (my_package) CommandEnded: {'returncode': 0}
+[16.953503] (-) TimerEvent: {}
+[17.022790] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[17.053723] (-) TimerEvent: {}
+[17.068523] (joy_teleop_keymapping) StdoutLine: {'line': b'Installing keymapping_node script to /home/mobilehri/mobilehri_ws/install/joy_teleop_keymapping/lib/joy_teleop_keymapping\n'}
+[17.070840] (joy_teleop_keymapping) StdoutLine: {'line': b"writing list of installed files to '/home/mobilehri/mobilehri_ws/build/joy_teleop_keymapping/install.log'\n"}
+[17.153987] (-) TimerEvent: {}
+[17.234219] (joy_teleop_keymapping) CommandEnded: {'returncode': 0}
+[17.259149] (-) TimerEvent: {}
+[17.293167] (joy_teleop_keymapping) JobEnded: {'identifier': 'joy_teleop_keymapping', 'rc': 0}
+[17.360583] (-) TimerEvent: {}
+[17.461344] (-) TimerEvent: {}
+[17.562131] (-) TimerEvent: {}
+[17.663521] (-) TimerEvent: {}
+[17.736522] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[17.763738] (-) TimerEvent: {}
+[17.864628] (-) TimerEvent: {}
+[17.965449] (-) TimerEvent: {}
+[18.011688] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[18.028979] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[18.065674] (-) TimerEvent: {}
+[18.071231] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[18.150062] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[18.165866] (-) TimerEvent: {}
+[18.239959] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[18.266036] (-) TimerEvent: {}
+[18.366753] (-) TimerEvent: {}
+[18.467629] (-) TimerEvent: {}
+[18.521226] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[18.528646] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[18.567772] (-) TimerEvent: {}
+[18.668493] (-) TimerEvent: {}
+[18.769314] (-) TimerEvent: {}
+[18.871859] (-) TimerEvent: {}
+[18.972626] (-) TimerEvent: {}
+[19.073548] (-) TimerEvent: {}
+[19.174648] (-) TimerEvent: {}
+[19.275366] (-) TimerEvent: {}
+[19.376183] (-) TimerEvent: {}
+[19.476946] (-) TimerEvent: {}
+[19.577692] (-) TimerEvent: {}
+[19.678455] (-) TimerEvent: {}
+[19.779196] (-) TimerEvent: {}
+[19.879997] (-) TimerEvent: {}
+[19.936587] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[19.980290] (-) TimerEvent: {}
+[20.081163] (-) TimerEvent: {}
+[20.182007] (-) TimerEvent: {}
+[20.282874] (-) TimerEvent: {}
+[20.383646] (-) TimerEvent: {}
+[20.484518] (-) TimerEvent: {}
+[20.585330] (-) TimerEvent: {}
+[20.686226] (-) TimerEvent: {}
+[20.749508] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.2 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[20.786378] (-) TimerEvent: {}
+[20.887107] (-) TimerEvent: {}
+[20.987891] (-) TimerEvent: {}
+[21.088636] (-) TimerEvent: {}
+[21.189862] (-) TimerEvent: {}
+[21.290630] (-) TimerEvent: {}
+[21.326321] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.2 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[21.390849] (-) TimerEvent: {}
+[21.491705] (-) TimerEvent: {}
+[21.592411] (-) TimerEvent: {}
+[21.693201] (-) TimerEvent: {}
+[21.794364] (-) TimerEvent: {}
+[21.895220] (-) TimerEvent: {}
+[21.903049] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found std_srvs: 4.2.2 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[21.995446] (-) TimerEvent: {}
+[22.096180] (-) TimerEvent: {}
+[22.196931] (-) TimerEvent: {}
+[22.226085] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:25 (find_package):\n'}
+[22.226863] (ydlidar_ros2_driver) StderrLine: {'line': b'  By not providing "Findydlidar_sdk.cmake" in CMAKE_MODULE_PATH this project\n'}
+[22.227287] (ydlidar_ros2_driver) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[22.227777] (ydlidar_ros2_driver) StderrLine: {'line': b'  "ydlidar_sdk", but CMake did not find one.\n'}
+[22.228170] (ydlidar_ros2_driver) StderrLine: {'line': b'\n'}
+[22.228671] (ydlidar_ros2_driver) StderrLine: {'line': b'  Could not find a package configuration file provided by "ydlidar_sdk" with\n'}
+[22.229124] (ydlidar_ros2_driver) StderrLine: {'line': b'  any of the following names:\n'}
+[22.229676] (ydlidar_ros2_driver) StderrLine: {'line': b'\n'}
+[22.230238] (ydlidar_ros2_driver) StderrLine: {'line': b'    ydlidar_sdkConfig.cmake\n'}
+[22.230609] (ydlidar_ros2_driver) StderrLine: {'line': b'    ydlidar_sdk-config.cmake\n'}
+[22.230999] (ydlidar_ros2_driver) StderrLine: {'line': b'\n'}
+[22.231548] (ydlidar_ros2_driver) StderrLine: {'line': b'  Add the installation prefix of "ydlidar_sdk" to CMAKE_PREFIX_PATH or set\n'}
+[22.237246] (ydlidar_ros2_driver) StderrLine: {'line': b'  "ydlidar_sdk_DIR" to a directory containing one of the above files.  If\n'}
+[22.238323] (ydlidar_ros2_driver) StderrLine: {'line': b'  "ydlidar_sdk" provides a separate development package or SDK, be sure it\n'}
+[22.239029] (ydlidar_ros2_driver) StderrLine: {'line': b'  has been installed.\n'}
+[22.239737] (ydlidar_ros2_driver) StderrLine: {'line': b'\n'}
+[22.240267] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[0m\n'}
+[22.240777] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[22.241428] (ydlidar_ros2_driver) StdoutLine: {'line': b'See also "/home/mobilehri/mobilehri_ws/build/ydlidar_ros2_driver/CMakeFiles/CMakeOutput.log".\n'}
+[22.259828] (ydlidar_ros2_driver) CommandEnded: {'returncode': 1}
+[22.297112] (-) TimerEvent: {}
+[22.347671] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 1}
+[22.359837] (-) EventReactorShutdown: {}

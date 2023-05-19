@@ -1,0 +1,3 @@
+[console_scripts]
+picamera_node = picamera.picamera_node:main
+

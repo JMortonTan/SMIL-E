@@ -1,0 +1,3 @@
+[console_scripts]
+mobile_robot_control_node = mobile_robot_control.mobile_robot_control_node:main
+

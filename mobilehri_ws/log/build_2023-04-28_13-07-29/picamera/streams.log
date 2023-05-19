@@ -1,0 +1,39 @@
+[12.051s] Invoking command in '/home/mobilehri/mobilehri_ws/src/mobilehri2023/picamera': PYTHONPATH=/home/mobilehri/mobilehri_ws/build/picamera/prefix_override:/home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/picamera build --build-base /home/mobilehri/mobilehri_ws/build/picamera/build install --record /home/mobilehri/mobilehri_ws/build/picamera/install.log --single-version-externally-managed
+[16.110s] running egg_info
+[16.113s] creating ../../../build/picamera/picamera.egg-info
+[16.115s] writing ../../../build/picamera/picamera.egg-info/PKG-INFO
+[16.117s] writing dependency_links to ../../../build/picamera/picamera.egg-info/dependency_links.txt
+[16.119s] writing entry points to ../../../build/picamera/picamera.egg-info/entry_points.txt
+[16.121s] writing requirements to ../../../build/picamera/picamera.egg-info/requires.txt
+[16.122s] writing top-level names to ../../../build/picamera/picamera.egg-info/top_level.txt
+[16.126s] writing manifest file '../../../build/picamera/picamera.egg-info/SOURCES.txt'
+[16.127s] reading manifest file '../../../build/picamera/picamera.egg-info/SOURCES.txt'
+[16.133s] writing manifest file '../../../build/picamera/picamera.egg-info/SOURCES.txt'
+[16.135s] running build
+[16.137s] running build_py
+[16.141s] creating /home/mobilehri/mobilehri_ws/build/picamera/build
+[16.160s] creating /home/mobilehri/mobilehri_ws/build/picamera/build/lib
+[16.178s] creating /home/mobilehri/mobilehri_ws/build/picamera/build/lib/picamera
+[16.200s] copying picamera/__init__.py -> /home/mobilehri/mobilehri_ws/build/picamera/build/lib/picamera
+[16.215s] copying picamera/picamera_node.py -> /home/mobilehri/mobilehri_ws/build/picamera/build/lib/picamera
+[16.238s] running install
+[16.264s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[16.277s]   warnings.warn(
+[16.290s] running install_lib
+[16.303s] creating /home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages/picamera
+[16.312s] copying /home/mobilehri/mobilehri_ws/build/picamera/build/lib/picamera/__init__.py -> /home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages/picamera
+[16.315s] copying /home/mobilehri/mobilehri_ws/build/picamera/build/lib/picamera/picamera_node.py -> /home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages/picamera
+[16.321s] byte-compiling /home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages/picamera/__init__.py to __init__.cpython-310.pyc
+[16.323s] byte-compiling /home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages/picamera/picamera_node.py to picamera_node.cpython-310.pyc
+[16.327s] running install_data
+[16.340s] creating /home/mobilehri/mobilehri_ws/install/picamera/share/ament_index
+[16.345s] creating /home/mobilehri/mobilehri_ws/install/picamera/share/ament_index/resource_index
+[16.352s] creating /home/mobilehri/mobilehri_ws/install/picamera/share/ament_index/resource_index/packages
+[16.353s] copying resource/picamera -> /home/mobilehri/mobilehri_ws/install/picamera/share/ament_index/resource_index/packages
+[16.356s] copying package.xml -> /home/mobilehri/mobilehri_ws/install/picamera/share/picamera
+[16.357s] running install_egg_info
+[16.361s] Copying ../../../build/picamera/picamera.egg-info to /home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages/picamera-0.0.0-py3.10.egg-info
+[16.363s] running install_scripts
+[16.365s] Installing picamera_node script to /home/mobilehri/mobilehri_ws/install/picamera/lib/picamera
+[16.370s] writing list of installed files to '/home/mobilehri/mobilehri_ws/build/picamera/install.log'
+[16.562s] Invoked command in '/home/mobilehri/mobilehri_ws/src/mobilehri2023/picamera' returned '0': PYTHONPATH=/home/mobilehri/mobilehri_ws/build/picamera/prefix_override:/home/mobilehri/mobilehri_ws/install/picamera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/picamera build --build-base /home/mobilehri/mobilehri_ws/build/picamera/build install --record /home/mobilehri/mobilehri_ws/build/picamera/install.log --single-version-externally-managed
